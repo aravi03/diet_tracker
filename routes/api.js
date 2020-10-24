@@ -11,7 +11,7 @@ router.get('/search',function(req,res){
     name=req.query.name;
     console.log(name);
     var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                  var db=client.db('calorie-table');
                  var collection=db.collection("food");
@@ -32,7 +32,7 @@ router.get('/search',function(req,res){
         }
         console.log(mealplan);
         var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                 var db=client.db('calorie-table');
                 var collection=db.collection("plan");
@@ -48,7 +48,7 @@ router.get('/search',function(req,res){
         var date=req.query.date;
         console.log(date);
         var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                  var db=client.db('calorie-table');
                  var collection=db.collection("plan");
@@ -63,7 +63,7 @@ router.get('/search',function(req,res){
         var id=req.query.id;
         console.log('accepted',id);
         var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                  var db=client.db('calorie-table');
                  var collection=db.collection("plan");
@@ -77,7 +77,7 @@ router.get('/search',function(req,res){
     router.get('/rejectplan',function(req,res){
         var id=req.query.id;
         var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                  var db=client.db('calorie-table');
                  var collection=db.collection("plan");
@@ -99,7 +99,7 @@ router.get('/search',function(req,res){
         }
         console.log(mealplan);
         var MongoClient = require('mongodb').MongoClient;
-        MongoClient.connect('mongodb+srv://'+ process.env.MONGO_ID+':'+process.env.MONGO_PASSWORD+'@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
+        MongoClient.connect('mongodb+srv://Aravinth:12345@cluster0.giy9v.mongodb.net/<dbname>?retryWrites=true&w=majority').then(function(client)
             {
                 var db=client.db('calorie-table');
                 var collection=db.collection("plan");
