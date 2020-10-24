@@ -59,7 +59,7 @@ class search_client extends Component {
                 <div className="row my-5">
                     <div className='col'>
                     <label for="datetime">Enter Date and Time: </label>&ensp;&ensp;
-                    <input type="datetime-local" id="datetime" name="datetime" onChange={(e) => this.dtChange(e)}/>  
+                    <input required type="datetime-local" id="datetime" name="datetime" onChange={(e) => this.dtChange(e)}/>  
                     </div>
                     <div className='col'>
                     <input className="form-control" type="text" id="search_movies" name="search_movies" placeholder="Search for Food...." onChange={(e) => this.handleChange(e)}></input>
