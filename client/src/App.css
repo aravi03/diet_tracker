@@ -1,0 +1,167 @@
+
+#submit-btn{
+width: 100px;
+}
+#selected_plan{
+  background-color:#F5F5F5;
+  width: fit-content;
+  margin: 0px;
+}
+#search_movies{
+  width: 500px;
+}
+#myplan_poster{
+  height:80px;
+  width: 100px;
+}
+#myplan_button{
+  width: 100px;
+}
+.inline{
+  display: inline;
+}
+#total{
+  background-color:#696969;
+  color: white;
+  width: 200px;
+}
+#submit-btn{
+  background-color:black;
+  color: white;
+}
+.txt-green{
+  color: green;
+}
+.txt-red{
+  color: red;
+}
+.txt-black{
+  color:black;
+}
+#inc-size{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+  
+}
+body{
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#navbar{
+  background-color: black;
+  padding: 20px;
+}
+#navbar_title{
+  padding-left: 50px;
+}
+#jt1{
+  background-color: #f7f7f9;
+  
+}
+#search_box{
+  background-color: #f7f7f9;
+}
+#search_text{
+  text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#search_movies{
+  background-color:  #f7f7f9;
+  border-color:  #f7f7f9;
+ 
+}
+/* #search_col{
+  margin-left: 100px;
+} */
+#poster{
+  
+  height:100px;
+  width: 100px;
+}
+#food_block:hover #poster{
+  
+  height:120px;
+  width: 120px;
+  
+}
+#food_block:hover #food_name{
+  width: 125px;
+  font-size: medium;
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+#quantity{
+  width: 125px;
+  /* pointer-events: none; */
+}
+
+#food_name{
+  display: none;
+  
+}
+#food_name1{
+  background-color: black;
+  color: white;
+  
+}
+#food_block:hover #food_name1{
+ display: none;
+  
+}
+#home-size{
+  font-size: 20px;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

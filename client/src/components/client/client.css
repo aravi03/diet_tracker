@@ -1,0 +1,44 @@
+/* #progress-time{
+    background-color: black;
+    color: white;
+
+} */
+#plan_name{
+    display: none;
+    
+  }
+  #plan_name1{
+    background-color: black;
+    color: white;
+    width: 120px;
+  }
+  #plan_block:hover #plan_name{
+    width: 125px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  #plan_block:hover #plan-poster{
+  
+    height:120px;
+    width: 120px;
+    
+  }
+  #plan_block:hover #plan_name1{
+   display: none;
+    
+  }
+  #plan-poster{
+    width: 100px;
+    height: 100px;
+  }
+  #quantity{
+    width: 125px;
+    /* pointer-events: none; */
+  }
+  #total_progress{
+    /* background-color: black; */
+    /* color: white; */
+    /* width: 100px; */
+  }
