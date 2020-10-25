@@ -72,6 +72,8 @@ router.get('/search',function(req,res){
                     { $set: { status:'accept'}}
                 )
     
+       }).then(()=>{
+        {res.send('accepted');}
        })
     })
     router.get('/rejectplan',function(req,res){
@@ -86,6 +88,8 @@ router.get('/search',function(req,res){
                     { $set: { status: 'reject'}}
                 )
     
+       }).then(()=>{
+        {res.send('rejected');}
        })
     })
 
