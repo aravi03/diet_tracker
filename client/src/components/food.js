@@ -23,7 +23,7 @@ class food extends Component {
             this.props.food.map(item=>{
                 // if(movie.Poster!="N/A")
                 return(
-                    <div class="col-2 mx-2 my-5">
+                    <div class="col-md-2 col-sm-12 col-xs-12 mx-2 my-5">
                     <div class="well text-center" id='food_block'>
                         <a href=''>
                       <img  src={item.url} id="poster"/></a>

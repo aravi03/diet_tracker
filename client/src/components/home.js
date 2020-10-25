@@ -30,6 +30,21 @@ export default class Home extends Component {
             </div>
             
         </nav>
+        <br></br><br></br><br></br>
+
+            <div className=''>
+                <h1>About</h1><br></br><br></br>
+                <div className='row mx-5'><h3>Trainer</h3><br></br><br></br><br></br></div>
+                <div className='row mx-5'><h6 className='mx-3'>Build Plan-</h6> Trainers can create diet plans for their clients at any date and time in this section</div>
+                <div className='row mx-5'><h6 className='mx-3'>Progress- </h6> Trainers can view the progress of their clients and can check the status of any prescribed plan</div>
+                <br></br><br></br>
+                <div className='row mx-5'><h3>Client</h3><br></br><br></br><br></br></div>
+                <div className='row mx-5'><h6 className='mx-3'>Dashboard-</h6> Clients can view the plans which are prescribed by the trainers for any day and can accept or reject the prescribed plan</div>
+                <div className='row mx-5'><h6 className='mx-3'>Custom Plan- </h6> Clients can create their own customized plan in this section and which will also be updated to the trainer</div>
+            </div>  
+            <br></br><br></br>
+
+
             </div>
         )
     }

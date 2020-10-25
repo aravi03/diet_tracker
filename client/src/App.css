@@ -41,8 +41,12 @@ width: 100px;
 #inc-size{
   font-size: 30px;
 }
-
-
+#mysearch{
+  width: 120px;
+}
+#qtyinput{
+  width: 135px;
+}
 
 
 
