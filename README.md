@@ -11,5 +11,7 @@ Heroku link to the deployed version- https://diet-tracker-tread.herokuapp.com/#/
 
 Tools used:
 -----------
-This project uses Node.js and express for backend and MongoDB as the database to store the information.<br>
+Frontend- React.js with Redux  <br>
+Backend- Node.js and Express <br>
+Database- MongoDB
 
