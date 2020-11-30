@@ -5,7 +5,7 @@ export default class navbar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
             
-            <a id="navbar_title" className="navbar-brand" href=''>TREAD</a>  
+            <a id="navbar_title" className="navbar-brand" href=''>NOURISHER</a>  
             <br/>
             
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
